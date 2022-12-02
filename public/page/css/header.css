@@ -1,0 +1,157 @@
+@media screen and (min-width: 1300px) {
+  .menu-bar {
+    width: 100%;
+    margin-top: 0;
+    font-size: 15px;
+    padding: 0;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    height: 93px;
+    display: inline-flex;
+    background-color: #225ea3;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    align-items: center;
+  }
+  .menu-bar li {
+    font-family: "system-ui", cursive;
+    list-style: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    margin: 0 8px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .menu-bar li::before {
+    content: " ";
+    position: absolute;
+    top: 7px;
+    height: 70%;
+    width: 90%;
+    z-index: -1;
+    transition: 0.5s;
+    left: 8px;
+  }
+  .menu-bar li:hover::before {
+    background: radial-gradient(rgba(0, 16, 219, 0.57), #0083ff);
+    box-shadow: 0px 3px 20px 0px white;
+    transform: scale(1.2);
+  }
+  .menu-bar a {
+    text-decoration: none;
+  }
+  .menu-bar #logomgphead {
+    margin-top: 7px;
+    background: white;
+    min-width: 220px !important;
+    min-height: 20px !important;
+    height: 100px !important;
+    width: auto !important;
+    max-height: 11em !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  a, a:visited, a:focus, a:active, a:link {
+    font-size: 10px;
+    text-decoration: none;
+    outline: 0;
+  }
+
+  .menu-bar {
+    height: 321px !important;
+    line-height: 13px !important;
+    text-align: -webkit-center !important;
+    margin-top: -1px;
+    font-size: 15px;
+    padding: 0;
+    text-decoration-skip-ink: none;
+    background-color: #225ea3;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    place-content: center;
+  }
+  .menu-bar li {
+    font-size: 14px;
+    font-family: "system-ui", cursive;
+    list-style: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    margin: 0 8px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .menu-bar li::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  .menu-bar li:hover::before {
+    background: radial-gradient(rgba(0, 16, 219, 0.57), #0083ff);
+    box-shadow: 0px 3px 20px 0px white;
+    transform: scale(1.2);
+  }
+  .menu-bar a {
+    text-decoration: none;
+  }
+  .menu-bar #logomgphead {
+    min-width: 220px !important;
+    min-height: 20px !important;
+    height: 80px !important;
+    width: auto !important;
+  }
+}
+.tooltipDASH {
+  width: 50px;
+  position: relative;
+  display: inline-block;
+  height: 50px;
+}
+
+.tooltipDASH .tooltiptextDASH {
+  font-size: 15px !important;
+  visibility: hidden !important;
+  width: 120px !important;
+  background-color: #ffffff !important;
+  color: #225ea3 !important;
+  text-align: center !important;
+  padding: 5px 0 !important;
+  /* Position the tooltip */
+  position: absolute !important;
+  z-index: 1 !important;
+}
+
+.tooltipDASH:hover .tooltiptextDASH {
+  visibility: visible !important;
+}
+
+#logoprofilhead {
+  border-radius: 15px;
+  width: 50px !important;
+  filter: invert(1);
+}
+
+#headselect {
+  content: " ";
+  z-index: -1;
+  transition: 0.5s;
+  background: radial-gradient(rgba(0, 16, 219, 0.57), #0083ff);
+  box-shadow: 0px 3px 20px 0px white;
+  transform: scale(1);
+}
+
+#StrongH1 {
+  background: rgba(255, 255, 255, 0);
+  font-size: 1.19em !important;
+  color: white;
+  content-visibility: hidden;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,37 @@
+// --------------------------
+// Set-up styles
+// --------------------------
+* { box-sizing: border-box; }
+body { background: slategray; margin: 0; padding: 3em 1em;}
+ul { list-style: none; margin: 0; padding: 0;}
+figure { margin: 0; }
+figcaption { font-style: italic; font-size: 0.8em; color: grey; line-height: 1.4; }
+
+// --------------------------
+// Grid styles
+// --------------------------
+.grid {
+  place-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  grid-auto-columns: 90%;
+  grid-gap: 1em;
+  -webkit-overflow-scrolling: touch;
+  padding: 2em 1em;
+  background: white;
+
+  @media all and (min-width: 600px) {
+
+  }
+
+  &__figure {
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 15em 1fr; // 15em high row for image – value could be whatever
+    grid-gap: 1em;
+
+    img {
+      height: 100%;
+    }
+  }
+}

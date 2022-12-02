@@ -1,0 +1,11 @@
+div.bubble {
+  animation-duration: 50ms;
+  border-radius: 20px;
+}
+
+div.bubble:hover {
+  animation-duration: 50ms;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=details_calendar.css.map */

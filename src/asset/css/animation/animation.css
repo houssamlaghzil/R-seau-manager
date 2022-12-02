@@ -1,0 +1,435 @@
+@charset "UTF-8";
+html {
+  background: white !important;
+  font-family: "Racing Sans One", cursive;
+  font-size: 40px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  /* Préserve le ratio de l'image */
+  min-width: auto;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "system-ui", cursive !important;
+  text-align: -webkit-center !important;
+}
+
+@media screen and (max-width: 1300px) {
+  h1 {
+    WIDTH: 359px;
+    font-size: 15px;
+    color: #005da8;
+  }
+}
+img {
+  float: none !important;
+}
+
+#imgslack {
+  height: 70px !important;
+  margin-top: 0 !important;
+  margin-right: auto !important;
+}
+
+div#imglogo {
+  padding: 3.2em;
+  display: inline-block;
+  width: 15%;
+  background: #efefef;
+}
+
+img#fleche {
+  position: relative;
+}
+
+a {
+  color: #1d89ff;
+}
+
+.page-wrapper {
+  margin-top: 0% !important;
+  bottom: 0;
+  width: 100%;
+  z-index: 11111;
+  top: 35px;
+}
+
+#page-wrapper {
+  margin-top: 200px !important;
+  bottom: 0;
+  width: 100%;
+  z-index: 11111;
+  top: 35px;
+}
+
+#Animation {
+  background-image: url("../../Page Echanges et partages.jpeg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  top: 0;
+  background-position-y: center;
+  z-index: 0;
+  font-size: 2.5em;
+  color: #225ea3;
+}
+
+article {
+  position: relative;
+  z-index: -1;
+  background: white;
+  padding: 20px;
+}
+article h1 {
+  margin-top: -100px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+  font-size: 40px;
+  line-height: 40px;
+  position: sticky;
+  top: 0px;
+  backdrop-filter: blur(20px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6));
+  color: #001aff;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5) !important;
+}
+article h1 .byline {
+  font-size: 14px;
+}
+article p {
+  margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .divanim {
+    display: inline-table;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .divanim {
+    margin-bottom: 4em;
+    display: inline-table;
+  }
+
+  .aniright {
+    margin-left: 1em;
+    margin-right: 1em;
+    float: right;
+  }
+
+  .anileft {
+    margin-left: 1em;
+    margin-right: 1em;
+    float: left;
+  }
+}
+@media screen and (min-width: 1300px) {
+  label {
+    background: #dcdcdc;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+    height: auto;
+  }
+
+  label div:first-child {
+    font-weight: bold;
+    color: #005da8;
+    width: 100%;
+    line-height: 45px;
+    margin-left: 10px;
+    font-size: 1.5em;
+    text-align: start;
+  }
+
+  button.btnanim {
+    -webkit-background-size: contain;
+    transition-duration: 0.3s;
+    box-shadow: 5px 5px 5px #af3740;
+    font-size: 2em;
+    border: 0px solid;
+    width: 17em;
+    height: 7em;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgba(255, 255, 255, 0);
+    background-image: url("../../slack-new-logo.svg");
+  }
+
+  button.btnanim:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 7px 7px 7px #af3740;
+    font-size: 2em;
+    border: 0px solid;
+    border-radius: 15px;
+    width: 17em;
+    height: 7em;
+    background: #f84e5b;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 1300px) {
+  label {
+    background: #dcdcdc;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+    height: auto;
+  }
+
+  label div:first-child {
+    font-weight: bold;
+    color: #005da8;
+    width: 100%;
+    line-height: 45px;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: start;
+  }
+
+  button.btnanim {
+    -webkit-background-size: contain;
+    transition-duration: 0.3s;
+    box-shadow: 5px 5px 5px #af3740;
+    font-size: 2em;
+    border: 0px solid;
+    width: 7em;
+    height: 2em;
+    background-image: url("../../slack-new-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgba(255, 255, 255, 0);
+  }
+
+  button.btnanim:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 7px 7px 7px #af3740;
+    font-size: 2em;
+    border: 0px solid;
+    border-radius: 15px;
+    width: 7em;
+    height: 2em;
+    background: #f84e5b;
+    color: #ffffff;
+  }
+}
+.enSavoirPlus {
+  margin-top: 4em;
+}
+
+#btnanim2 {
+  transition-duration: 0.3s;
+  box-shadow: 5px 5px 5px #af3740;
+  font-size: 2em;
+  border: 0px solid;
+  width: 8em;
+  height: 2em;
+  background: #f84e5b;
+}
+
+#btnanim2:hover {
+  content: "cliquez ici";
+  cursor: pointer;
+  transition-duration: 0.3s;
+  box-shadow: 7px 7px 7px #af3740;
+  font-size: 2em;
+  border: 0px solid;
+  width: 8em;
+  height: 2em;
+  background: #f84e5b;
+  color: #ffffff;
+}
+
+#buttonslack {
+  color: rgba(255, 255, 255, 0);
+}
+
+#buttonslack :hover {
+  color: #ffffff;
+}
+
+.wrapper {
+  margin-top: 3em;
+  max-width: 600px;
+}
+
+input {
+  display: none;
+}
+
+.cross {
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
+.cross:before, .cross:after {
+  content: "";
+  border-top: 2px solid #3E474F;
+  width: 15px;
+  display: block;
+  margin-top: 18px;
+  transition: 0.3s;
+}
+
+.cross:after {
+  transform: rotate(90deg);
+  margin-top: -2px;
+}
+
+.content {
+  box-sizing: border-box;
+  font-size: 0.9em;
+  margin: 10px 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height, 0.5s;
+}
+
+input:checked ~ .content {
+  max-height: 400px;
+  transition: max-height, 1s;
+}
+
+input:checked ~ label .cross:before {
+  transform: rotate(180deg);
+}
+
+input:checked ~ label .cross:after {
+  transform: rotate(0deg);
+}
+
+.questions {
+  margin-top: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height, 0.5s;
+}
+
+.questions label {
+  height: auto;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+input:checked ~ .questions {
+  min-height: 14em;
+  max-height: 100%;
+  border-bottom: 2px solid #3E474F;
+  transition: 1s;
+}
+
+/*----------tool-tip------------*/
+.tip {
+  color: #f03768;
+  cursor: help;
+  position: relative;
+  overflow: visible;
+  font-size: 1.3em;
+}
+
+.tip:before,
+.tip:after {
+  position: absolute;
+  opacity: 0;
+  z-index: -100;
+  transform: translateY(-30%);
+  transition: 0.4s;
+}
+
+.tip:before {
+  content: "";
+  border-style: solid;
+  border-width: 0.8em 0.5em 0 0.5em;
+  border-color: #3E474F transparent transparent transparent;
+  transform: translateY(-200%);
+  bottom: 90%;
+  left: 50%;
+}
+
+.tip:after {
+  content: attr(data-tip);
+  color: white;
+  width: 150px;
+  padding: 10px;
+  font-size: 0.8em;
+  bottom: 150%;
+  left: -50%;
+}
+
+.tip:hover:before,
+.tip:hover:after {
+  opacity: 1;
+  z-index: 100;
+  transform: scaleY(1);
+}
+
+.nametitle {
+  text-align: left;
+}
+
+.iconagrandir {
+  width: 4em;
+}
+
+/*svg*/
+.tooltipDASH {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipDASH .tooltiptextDASH {
+  font-size: 15px;
+  visibility: hidden !important;
+  width: 120px !important;
+  background-color: #ffffff !important;
+  color: #225ea3 !important;
+  text-align: center !important;
+  padding: 5px 0 !important;
+  /* Position the tooltip */
+  position: absolute !important;
+  z-index: 1 !important;
+}
+
+.tooltipDASH:hover .tooltiptextDASH {
+  visibility: visible !important;
+}
+
+.toolboximg {
+  width: 95px;
+  height: auto;
+}
+
+.pLinkAnimation {
+  font-size: 20px !important;
+}
+
+.h1AnimationLink {
+  font-size: 20px !important;
+  color: #225ea3 !important;
+}
+
+.inputadminmedia {
+  display: block;
+}
+
+.titleSclack {
+  font-weight: bold;
+  color: #0083ff !important;
+  font-size: 20px !important;
+  background: white !important;
+}
+
+/*# sourceMappingURL=animation.css.map */

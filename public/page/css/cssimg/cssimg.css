@@ -1,0 +1,121 @@
+@media screen and (max-width: 1300px) {
+  .grid img {
+    transition-duration: 0.6s;
+    padding: 15px;
+    width: 7em;
+    height: auto !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  .grid img:hover {
+    transition-duration: 0.6s;
+    padding: 0px;
+    width: 7em;
+    height: auto !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  #logomgphead {
+    min-width: 220px;
+    min-height: 20px;
+    height: 5em !important;
+    width: auto !important;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .grid img {
+    transition-duration: 0.6s;
+    padding: 15px;
+    width: 12em;
+    height: auto !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  .grid img:hover {
+    transition-duration: 0.6s;
+    padding: 0px;
+    width: 15em;
+    height: auto !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+}
+.hero {
+  margin-top: 1em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10em;
+  top: 0;
+  background-position-y: bottom;
+  z-index: 0;
+}
+
+#icondownload {
+  display: table;
+}
+
+#imgslack {
+  height: 7em !important;
+  margin-top: 0 !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+}
+
+#imgslack:hover {
+  transition-duration: 0.2s;
+  height: 7.3em !important;
+  margin-top: 0 !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  background: radial-gradient(#005da830, transparent);
+}
+
+.iconfooter {
+  width: 20px;
+  padding-top: 9px;
+}
+
+.logoccimgp {
+  margin: 5px;
+  width: 15em;
+}
+
+.ccilogofooter {
+  width: 17em !important;
+}
+
+@media screen and (max-width: 600px) {
+  .edito {
+    width: 6em;
+    padding: 30px;
+    color: #000 !important;
+    background-color: #fff;
+    margin: 1em;
+    font-size: 0.6em;
+    min-width: 384px;
+    max-width: 50%;
+  }
+
+  .imgedito {
+    float: left;
+    height: 10em;
+    margin: 10px;
+  }
+}
+.h1page {
+  font-weight: bold;
+  text-align: -webkit-center;
+  width: 450px;
+  background-color: #005da8;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=cssimg.css.map */

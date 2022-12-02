@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, serif;
+}
+
+.wrapper {
+  margin-top: 3em;
+  max-width: 600px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  display: none;
+}
+
+label {
+  background: #dcdcdc;
+  display: flex !important;
+  width: 100%;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  height: auto;
+}
+
+label div:first-child {
+  text-align: start;
+  color: #005da8;
+  width: 100%;
+  line-height: 45px;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+.cross {
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
+.cross:before, .cross:after {
+  content: "";
+  border-top: 2px solid #3E474F;
+  width: 15px;
+  display: block;
+  margin-top: 18px;
+  transition: 0.3s;
+}
+
+.cross:after {
+  transform: rotate(90deg);
+  margin-top: -2px;
+}
+
+.content {
+  box-sizing: border-box;
+  font-size: 0.9em;
+  margin: 10px 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height, 0.5s;
+}
+
+input:checked ~ .content {
+  max-height: 400px;
+  transition: max-height, 1s;
+}
+
+input:checked ~ label .cross:before {
+  transform: rotate(180deg);
+}
+
+input:checked ~ label .cross:after {
+  transform: rotate(0deg);
+}
+
+.questions {
+  margin-top: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height, 0.5s;
+}
+
+.questions label {
+  height: auto;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+input:checked ~ .questions {
+  min-height: 14em;
+  max-height: 100%;
+  border-bottom: 2px solid #3E474F;
+  transition: 1s;
+}
+
+/*----------tool-tip------------*/
+.tip {
+  color: #f03768;
+  cursor: help;
+  position: relative;
+  overflow: visible;
+  font-size: 1.3em;
+}
+
+.tip:before,
+.tip:after {
+  position: absolute;
+  opacity: 0;
+  z-index: -100;
+  transform: translateY(-30%);
+  transition: 0.4s;
+}
+
+.tip:before {
+  content: "";
+  border-style: solid;
+  border-width: 0.8em 0.5em 0 0.5em;
+  border-color: #3E474F transparent transparent transparent;
+  transform: translateY(-200%);
+  bottom: 90%;
+  left: 50%;
+}
+
+.tip:after {
+  content: attr(data-tip);
+  color: white;
+  width: 150px;
+  padding: 10px;
+  font-size: 0.8em;
+  bottom: 150%;
+  left: -50%;
+}
+
+.tip:hover:before,
+.tip:hover:after {
+  opacity: 1;
+  z-index: 100;
+  transform: scaleY(1);
+}
+
+.nametitle {
+  text-align: left;
+}
+
+p {
+  color: black !important;
+  background: rgba(255, 255, 255, 0.52) !important;
+}
+
+#divnew {
+  display: flex;
+  text-align: -webkit-center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.laUne {
+  color: #fdfdff;
+  width: 15em;
+  background: #005da8;
+}
+
+.padress {
+  background-color: rgba(253, 253, 255, 0) !important;
+  color: white !important;
+}
+
+html {
+  background: white !important;
+}
+
+.hero {
+  background-image: url("../../mediatheque.jpg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  top: 0;
+  background-position-y: bottom;
+  z-index: 0;
+  font-size: 2.5em;
+  color: #ffffff;
+}
+
+article {
+  position: relative;
+  z-index: -1;
+  background: white;
+  padding: 20px;
+}
+article h1 {
+  margin-top: -100px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+  font-size: 40px;
+  line-height: 40px;
+  position: sticky;
+  top: 0px;
+  backdrop-filter: blur(20px);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6));
+  color: #001aff;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+article h1 .byline {
+  font-size: 14px;
+}
+article p {
+  margin: 0 0 20px 0;
+}
+
+.question-wrap {
+  width: 410px;
+}
+
+@media screen and (max-width: 1300px) {
+  .laUne {
+    color: #fdfdff;
+    width: 270px;
+    background: #005da8;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .allmedia {
+    justify-content: space-evenly;
+    display: flex;
+  }
+}
+.linkdrive {
+  font-size: 20px;
+  text-decoration-line: none !important;
+}
+
+p.linkdrive {
+  text-decoration-line: none !important;
+  font-size: 20px;
+  margin: 0;
+  color: white !important;
+  background: rgba(255, 255, 255, 0) !important;
+}
+
+.lidrive {
+  margin: 5px !important;
+  transition-duration: 300ms !important;
+  background: #60aeff !important;
+  border-radius: 5px;
+  color: #000000 !important;
+  text-decoration-line: none !important;
+  padding: 5px;
+  font-weight: 500 !important;
+}
+
+.lidrive:hover {
+  margin: 5px !important;
+  text-decoration-line: none !important;
+  background: #0083ff !important;
+  transform: scale(1.2) !important;
+  color: white !important;
+}
+
+/*# sourceMappingURL=mediaDoc.css.map */

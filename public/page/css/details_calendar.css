@@ -1,0 +1,9 @@
+div.bubble {
+  animation-duration: 50ms;
+}
+
+div.bubble:hover {
+  animation-duration: 50ms;
+}
+
+/*# sourceMappingURL=details_calendar.css.map */

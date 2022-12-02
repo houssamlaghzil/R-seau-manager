@@ -1,0 +1,102 @@
+.imgfooter {
+  height: 100px;
+}
+
+.imgedito {
+  float: left;
+  height: 20em;
+  margin: 10px;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+.divbackimg, .heroInfo {
+  background-size: cover !important;
+  background: no-repeat url("../../../asset/Visuel page d'accueil.png");
+  top: 0;
+  background-position-y: center;
+  z-index: 0;
+}
+
+.hero {
+  background: no-repeat url("../../../asset/Visuel page d'accueil.png");
+  color: #225ea3 !important;
+  background-size: cover !important;
+  height: 24em !important;
+  top: 0;
+  background-position-y: center;
+  z-index: 0;
+  width: 98% !important;
+}
+
+.iconfooter {
+  width: 20px;
+  padding-top: 9px;
+}
+
+.logoccimgp {
+  margin: 5px;
+  width: 15em;
+}
+
+.ccilogofooter {
+  width: 17em !important;
+}
+
+@media screen and (max-width: 1300px) {
+  #logomgphead {
+    min-width: 220px;
+    min-height: 20px;
+    height: 5em !important;
+    width: auto !important;
+  }
+
+  .edito {
+    width: 6em;
+    padding: 30px;
+    color: #000 !important;
+    background-color: #fff;
+    margin: 1em;
+    font-size: 0.6em;
+    min-width: 384px;
+    max-width: 50%;
+  }
+
+  .imgedito {
+    float: left;
+    height: 10em;
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #logomgphead {
+    min-width: 220px;
+    min-height: 20px;
+    height: 5em !important;
+    width: auto !important;
+  }
+
+  .edito {
+    width: 6em;
+    padding: 30px;
+    color: #000 !important;
+    background-color: #fff;
+    margin: 1em;
+    font-size: 0.6em;
+    min-width: 384px;
+    max-width: 50%;
+  }
+
+  .imgedito {
+    float: left;
+    height: 10em;
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=cssimg.css.map */

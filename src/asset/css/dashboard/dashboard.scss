@@ -1,0 +1,357 @@
+
+#divedito {
+}
+
+div.info {
+  margin-bottom: 1em;
+}
+
+.card {
+  margin: 1em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff !important;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 30px !important;
+}
+
+p.info {
+  display: table;
+  text-align: start !important;
+  text-align-last: start !important;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 1em;
+  color: #005da8 !important;
+}
+
+.divlog {
+  border: groove;
+  border-radius: 30px;
+  width: 33%;
+  float: left;
+}
+
+#divlog_id {
+  border: groove;
+  border-radius: 30px;
+  width: 20%;
+  float: left;
+}
+
+form {
+  font-size: 0.7em;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .edito {
+    width: 6em;
+    padding: 30px;
+    color: #000 !important;
+    border-radius: 30px;
+    background-color: #fff;
+    margin: 1em;
+    font-size: .6em;
+    min-width: 384px;
+    max-width: 50%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  .edito {
+    width: 50%;
+    padding: 30px;
+    color: #000 !important;
+    border-radius: 30px;
+    background-color: #fff;
+    margin: 1em;
+    font-size: .6em;
+    min-width: 600px;
+    max-width: 50%;
+  }
+}
+
+
+p {
+  color: #005da8 !important;
+  background: rgba(0, 137, 255, 0);
+}
+
+.card {
+  margin: 1em;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #005da8;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0) !important;
+}
+
+
+html {
+  background: white;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: rgba(119, 163, 69, 0) !important;
+}
+
+
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+.editotitle h1 {
+  width: 450px;
+  background-color: #005da8;
+  color: #fff;
+  font-size: 1.8em;
+  margin-bottom: 0em;
+}
+
+.editotitle {
+  text-align: -webkit-center;
+}
+
+.h2, h2 {
+  font-size: 0.7em !important;
+}
+
+.buttonLogout {
+  font-size: 0.7em !important;
+}
+
+.buttonUpdate {
+  font-size: 1.2em !important;
+  border-radius: 20px !important;
+  padding: 0 !important;
+}
+
+.btn-link {
+  font-weight: bold !important;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.emailp {
+  font-size: 0.8em !important;
+  border-radius: 20px !important;
+  padding: 0 !important;
+}
+
+.card-body {
+  align-self: center !important;
+}
+
+strong {
+  font-style: italic;
+
+}
+
+#logoprofilhead {
+  border-radius: 15px;
+  width: 50px !important;
+  /* filter: invert(1);*/
+}
+#logoprofilhead:hover {
+border-radius: 15px;
+width: 50px !important;
+filter: invert(1);
+}
+
+#logoprofilhead:hover {
+background: #ffba6b;
+transition-duration: 0.6s;
+width: 4.2em !important;
+}
+
+#logoheader {
+width: 10em;
+}
+
+
+//caroucel
+
+
+.pic {
+width: 80%;
+height: 90%;
+}
+
+@keyframes display {
+0% {
+  transform: translateX(200px);
+  opacity: 0;
+}
+10% {
+  transform: translateX(0);
+  opacity: 1;
+}
+20% {
+  transform: translateX(0);
+  opacity: 1;
+}
+30% {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+100% {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+}
+
+.pic-ctn {
+place-content: center;
+display: flex;
+margin-top: 2em;
+margin-bottom: 2em;
+position: relative;
+width: 85%;
+height: 70%;
+}
+
+.pic-ctn > img {
+position: absolute;
+top: 0;
+opacity: 0;
+animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+animation-delay: 2s;
+}
+
+img:nth-child(3) {
+animation-delay: 4s;
+}
+
+img:nth-child(4) {
+animation-delay: 6s;
+}
+
+img:nth-child(5) {
+animation-delay: 8s;
+}
+
+
+/*.hero {
+background-image: url("../../../asset/Visuel page d'accueil.png");
+color: #225ea3 !important;
+background-size: cover !important;
+background-repeat: no-repeat;
+height: 7em;
+top: 0;
+background-position-y: center;
+z-index: 0;
+width: 100% !important;
+}
+.heroInfo {
+backdrop-filter: blur(2px);
+background-size: cover !important;
+background: no-repeat url("../../../asset/Visuel page d'accueil.png");
+top: 0;
+background-position-y: center;
+z-index: 0;
+}*/
+
+.divbackimg {
+  background: no-repeat url("../../../asset/Visuel page d'accueil.png");
+
+  color: #225ea3 !important;
+  background-size: cover !important;
+  top: 0;
+  background-position-y: center;
+  z-index: 0;
+  width: 100% !important;
+}
+
+.editoh1 {
+  font-size: 50px!important;
+}
+
+
+.left-div {
+  display: inline-block;
+  max-width: 45%;
+  text-align: left;
+  padding: 30px;
+  border-radius: 3px;
+  margin: 15px;
+  vertical-align: top;
+}
+
+.right-div {
+  display: inline-block;
+  max-width: 45%;
+  text-align: left;
+  padding: 30px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .left-div, .right-div {
+    max-width: 100%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm {
+    max-width: 960px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+    max-width: 720px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 100% !important;
+  }
+}
+
+h1.hero {
+  margin-top: 1em;
+  background-repeat: no-repeat;
+  height: 10em !important;
+  top: 0;
+  z-index: -1;
+}
+
+#rcc-confirm-button{
+  background: #0a4cbf !important;
+  color: white !important;
+}
+.CookieConsent{
+  position: sticky !important;
+}

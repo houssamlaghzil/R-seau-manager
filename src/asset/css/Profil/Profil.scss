@@ -1,0 +1,65 @@
+.divlog{
+  display: contents !important;
+  height: 100%;
+}
+
+.emailp{
+  font-size: 1.4em !important;
+  strong{
+  font-size: 1.9em !important;
+}
+}
+
+.h2{
+  font-size: 2em !important;
+}
+
+
+.form-control {
+  display: block !important;
+  /* width: 100%; */
+  /* height: calc(1.5em + .75rem + 2px); */
+  font-size: 1em !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #495057 !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 1px solid #ced4da !important;
+  border-radius: .25rem !important;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+
+.btn {
+  font-family: "Racing Sans One", cursive !important;
+  border: solid 1px white !important;
+  display: inline-block !important;
+  /* font-weight: 400; */
+  color: #ffffff !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  padding: .375rem .75rem !important;
+  font-size: 1em !important;
+  line-height: 1.5 !important;
+  border-radius: .25rem !important;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+
+.card-body {
+  color: #1161ee !important;
+  flex: 1 1 auto !important;
+  min-height: 1px !important;
+  padding: 1.25em !important;
+}
+
+.btn-link {
+  background: #005da8 !important;
+  font-weight: 400 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+.form-group {
+  margin-bottom: 0.5em !important;
+}
